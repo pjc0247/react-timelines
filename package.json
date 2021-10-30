@@ -1,11 +1,11 @@
 {
   "name": "react-timelines2",
-  "version": "2.7.4",
+  "version": "2.7.5",
   "description": "React Timelines2",
   "main": "lib/index.js",
   "scripts": {
     "clean": "rimraf lib coverage",
-    "build:js": "babel src/ -d lib/",
+    "build:js": "tsc",
     "watch:js": "babel -w src/ -d lib/",
     "build:css": "node-sass src/scss/style.scss lib/css/style.css",
     "watch:css": "node-sass -w src/scss/style.scss lib/css/style.css",
