@@ -1,4 +1,6 @@
-# React Timelines
+# React Timelines2
+
+A fork of [react-timelines] since original project is not maintained anymore.
 
 [**Demo**](https://jsainsburyplc.github.io/react-timelines/)
 

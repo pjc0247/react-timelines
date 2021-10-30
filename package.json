@@ -1,7 +1,7 @@
 {
-  "name": "react-timelines",
-  "version": "2.7.2",
-  "description": "React Timelines",
+  "name": "react-timelines2",
+  "version": "2.7.3",
+  "description": "React Timelines2",
   "main": "lib/index.js",
   "scripts": {
     "clean": "rimraf lib coverage",
@@ -36,8 +36,8 @@
     "tracks",
     "time"
   ],
-  "repository": "git@github.com:JSainsburyPLC/react-timelines.git",
-  "author": "JSainsburyPLC",
+  "repository": "git@github.com:pjc0247/react-timelines2.git",
+  "author": "pjc0247",
   "license": "MIT",
   "dependencies": {
     "prop-types": "^15.7.2"
@@ -70,7 +70,8 @@
     "react": "^16.13.1",
     "react-addons-test-utils": "^15.4.2",
     "react-dom": "16.13.1",
-    "rimraf": "^3.0.2"
+    "rimraf": "^3.0.2",
+    "typescript": "^4.4.4"
   },
   "peerDependencies": {
     "react": ">=16",

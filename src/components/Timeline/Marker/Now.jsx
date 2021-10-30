@@ -10,7 +10,6 @@ class NowMarker extends PureComponent {
     return (
       <Marker modifier="now" x={time.toX(now)} visible={visible}>
         <div>
-          <div>Today</div>
           <strong>{getDayMonth(now)}</strong>
         </div>
       </Marker>
