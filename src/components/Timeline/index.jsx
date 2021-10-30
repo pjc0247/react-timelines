@@ -41,9 +41,20 @@ class Timeline extends Component {
 
     return (
       <div className="rt-timeline" style={{ width: time.timelineWidthStyle }}>
-        {now && <NowMarker now={now} visible time={time} />}
+        {now && (
+          <NowMarker
+            now={now}
+            visible
+            time={time}
+          />
+        )}
         {pointerDate && (
-          <PointerMarker date={pointerDate} time={time} visible={pointerVisible} highlighted={pointerHighlighted} />
+          <PointerMarker
+            date={pointerDate}
+            time={time}
+            visible={pointerVisible}
+            highlighted={pointerHighlighted}
+          />
         )}
         <Header
           time={time}

@@ -1,9 +1,9 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
-import Controls from './components/Controls'
-import Layout from './components/Layout'
+import Controls from './components/Controls';
+import Layout from './components/Layout';
 import { TimelineContextProvider } from './context';
-import createTime from './utils/time'
+import createTime from './utils/time';
 
 const UNKNOWN_WIDTH = -1;
 
