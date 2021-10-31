@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import { ITimebar, ITrack } from 'models';
 import Controls from './components/Controls';
 import Layout from './components/Layout';
 import { TimelineContextProvider } from './context';
@@ -17,8 +18,8 @@ interface TimelineProps {
     minWidth?: number;
   };
   isOpen?: boolean;
-  timebar: any[];
-  tracks: any[]
+  timebar: ITimebar[];
+  tracks: ITrack[];
   now?: Date;
   enableSticky?: boolean;
   scrollToNow?: boolean;
