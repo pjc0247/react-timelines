@@ -6,7 +6,6 @@
   },
   "extends": ["airbnb", "prettier", "prettier/react"],
   "rules": {
-    "semi": ["error", "never"],
     "react/require-default-props": "off",
     "import/no-cycle": "off",
     "react/jsx-props-no-spreading": "off"
