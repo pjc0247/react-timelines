@@ -1,10 +1,3 @@
-export interface ITrack {
-  id: string;
-  title: string;
-  elements: IElement[];
-  tracks?: ITrack[]; // subtracks
-  isOpen?: boolean;
-};
 export interface IElement {
   id: string;
   title: string;
@@ -13,4 +6,12 @@ export interface IElement {
   style?: any;
   dataSet?: any;
   tooltip?: string;
-};
+}
+
+export interface ITrack {
+  id: string;
+  title: string;
+  elements: IElement[];
+  tracks?: ITrack[]; // subtracks
+  isOpen?: boolean;
+}

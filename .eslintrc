@@ -6,6 +6,7 @@
   },
   "extends": ["airbnb", "prettier", "prettier/react"],
   "rules": {
+    "react/jsx-filename-extension": [2, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
     "react/require-default-props": "off",
     "import/no-cycle": "off",
     "react/jsx-props-no-spreading": "off"

@@ -1,1 +1,1 @@
-export default cb => window.requestAnimationFrame(cb)
+export default cb => window.requestAnimationFrame(cb);
