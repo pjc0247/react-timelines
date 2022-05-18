@@ -2,21 +2,21 @@ name: Test and build for master
 
 on:
   push:
-    branches: [ master ]
+    branches: [master]
   pull_request:
-    branches: [ master ]
+    branches: [master]
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Use Node.js 10
-      uses: actions/setup-node@v1
-      with:
-        node-version: 10.x
-    - run: npm ci
-    - run: npm test
-      env:
-        CI: true
-    - run: npm run build
+      - uses: actions/checkout@v2
+      - name: Use Node.js 16
+        uses: actions/setup-node@v1
+        with:
+          node-version: 16.x
+      - run: npm ci
+      - run: npm test
+        env:
+          CI: true
+      - run: npm run build
